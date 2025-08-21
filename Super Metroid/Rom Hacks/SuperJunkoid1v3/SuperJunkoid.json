@@ -1,0 +1,2103 @@
+{
+  "name": "Super Junkoid",
+  "autostart": {
+    "active": "1",
+    "address": "0x0998",
+    "value": "0x02",
+    "type": "eq",
+    "next": [
+      {
+        "address": "0x0DE2",
+        "value": "0x00",
+        "type": "eq"
+      }
+    ]
+  },
+  "igt": {
+    "active": "0",
+    "framesAddress": "0x09DA",
+    "secondsAddress": "0x09DC",
+    "minutesAddress": "0x09DE",
+    "hoursAddress": "0x09E0"
+  },
+  "alias": {
+    "Kraid": "Immodest Junko",
+    "Draygon": "Obscene Junko",
+    "Phantoon": "Defiled Junko",
+    "Ridley": "Profane Junko",
+    "Ice Gem": "Gem of Ice",
+    "Blood Gem": "Gem of Blood",
+    "Wall Kicks": "Wallkicks",
+    "SNAKE": "Asmodeus 1",
+    "J4": "Junko Altar",
+    "Fly to the Sky": "Earth Escape"
+  },
+  "definitions": [
+    {
+      "name": "Earth Escape",
+      "address": "0x0998",
+      "value": "0x0026",
+      "type": "weq"
+    },
+    {
+      "name": "Asmodeus 1",
+      "address": "0xD820",
+      "value": "0x04",
+      "type": "bit",
+      "more": [
+        {
+          "address": "0x0FCC",
+          "value": "0x0000",
+          "type": "weq"
+        }
+      ]
+    },
+    {
+      "name": "Asmodeus 2",
+      "address": "0x079B",
+      "value": "0xB7E4",
+      "type": "weq",
+      "more": [
+        {
+          "address": "0x0FCC",
+          "value": "0x7530",
+          "type": "wgt"
+        }
+      ]
+    },
+    {
+      "name": "Asmodeus 3",
+      "address": "0xD82D",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "Snowy Forest",
+      "address": "0x079B",
+      "value": "0xB6E8",
+      "type": "weq"
+    },
+    {
+      "name": "First Fork",
+      "address": "0x079B",
+      "value": "0xBE5F",
+      "type": "weq"
+    },
+    {
+      "name": "Gutter Entrance",
+      "address": "0x079B",
+      "value": "0x9D23",
+      "type": "weq"
+    },
+    {
+      "name": "East Cave Onsen",
+      "address": "0x079B",
+      "value": "0x8CF3",
+      "type": "weq"
+    },
+    {
+      "name": "Castle Exterior",
+      "address": "0x079B",
+      "value": "0x8E79",
+      "type": "weq"
+    },
+    {
+      "name": "Mole Hill",
+      "address": "0x079B",
+      "value": "0x8EA0",
+      "type": "weq"
+    },
+    {
+      "name": "Rat Maze",
+      "address": "0x079B",
+      "value": "0x90E9",
+      "type": "weq"
+    },
+    {
+      "name": "Unsoak",
+      "address": "0x079B",
+      "value": "0x8FD8",
+      "type": "weq"
+    },
+    {
+      "name": "Middle Gates",
+      "address": "0x079B",
+      "value": "0x915E",
+      "type": "weq"
+    },
+    {
+      "name": "Blood Entrance",
+      "address": "0x079B",
+      "value": "0x9074",
+      "type": "weq"
+    },
+    {
+      "name": "Pipe Dream",
+      "address": "0x079B",
+      "value": "0x909B",
+      "type": "weq"
+    },
+    {
+      "name": "Box Room",
+      "address": "0x079B",
+      "value": "0xBA7F",
+      "type": "weq"
+    },
+    {
+      "name": "Narrow Falls",
+      "address": "0x079B",
+      "value": "0x9110",
+      "type": "weq"
+    },
+    {
+      "name": "Hell's Shaft",
+      "address": "0x079B",
+      "value": "0x9137",
+      "type": "weq"
+    },
+    {
+      "name": "West Cave Onsen",
+      "address": "0x079B",
+      "value": "0x8F15",
+      "type": "weq"
+    },
+    {
+      "name": "Outdoor Onsen",
+      "address": "0x079B",
+      "value": "0x8F3C",
+      "type": "weq"
+    },
+    {
+      "name": "Wallkicks Shaft",
+      "address": "0x079B",
+      "value": "0xBC2C",
+      "type": "weq"
+    },
+    {
+      "name": "Gutter Ball Shrine",
+      "address": "0x079B",
+      "value": "0x8E52",
+      "type": "weq"
+    },
+    {
+      "name": "Mushroom Hub",
+      "address": "0x079B",
+      "value": "0x8E2B",
+      "type": "weq"
+    },
+    {
+      "name": "Truly Hidden Forest",
+      "address": "0x079B",
+      "value": "0x8E04",
+      "type": "weq"
+    },
+    {
+      "name": "Giant's Room",
+      "address": "0x079B",
+      "value": "0x8DDD",
+      "type": "weq"
+    },
+    {
+      "name": "Left Hand Path",
+      "address": "0x079B",
+      "value": "0x8DB6",
+      "type": "weq"
+    },
+    {
+      "name": "Right Hand Path",
+      "address": "0x079B",
+      "value": "0x8D68",
+      "type": "weq"
+    },
+    {
+      "name": "Speed Cave",
+      "address": "0x079B",
+      "value": "0x8D1A",
+      "type": "weq"
+    },
+    {
+      "name": "Homunculus' Room",
+      "address": "0x079B",
+      "value": "0xB77E",
+      "type": "weq"
+    },
+    {
+      "name": "Gutter Hub",
+      "address": "0x079B",
+      "value": "0x9DF5",
+      "type": "weq"
+    },
+    {
+      "name": "Feather Room",
+      "address": "0x079B",
+      "value": "0x8F63",
+      "type": "weq"
+    },
+    {
+      "name": "Gutter Onsen",
+      "address": "0x079B",
+      "value": "0x8111",
+      "type": "weq"
+    },
+    {
+      "name": "Hole in the Wall",
+      "address": "0x079B",
+      "value": "0x7F9B",
+      "type": "weq"
+    },
+    {
+      "name": "Rat Cloak Room",
+      "address": "0x079B",
+      "value": "0x82E5",
+      "type": "weq"
+    },
+    {
+      "name": "Rat Burst Room",
+      "address": "0x079B",
+      "value": "0x8555",
+      "type": "weq"
+    },
+    {
+      "name": "Wriggling Shaft",
+      "address": "0x079B",
+      "value": "0x8507",
+      "type": "weq"
+    },
+    {
+      "name": "Gutter Purple Elevator",
+      "address": "0x079B",
+      "value": "0x84B9",
+      "type": "weq"
+    },
+    {
+      "name": "Hidden Onsen",
+      "address": "0x079B",
+      "value": "0x846B",
+      "type": "weq"
+    },
+    {
+      "name": "Gutter Map Room",
+      "address": "0x079B",
+      "value": "0x8F8A",
+      "type": "weq"
+    },
+    {
+      "name": "Wallkicks Room",
+      "address": "0x079B",
+      "value": "0x83A8",
+      "type": "weq"
+    },
+    {
+      "name": "Super Tube",
+      "address": "0x079B",
+      "value": "0x835A",
+      "type": "weq"
+    },
+    {
+      "name": "First Cave",
+      "address": "0x079B",
+      "value": "0x830C",
+      "type": "weq"
+    },
+    {
+      "name": "Scary Halls",
+      "address": "0x079B",
+      "value": "0x8C57",
+      "type": "weq"
+    },
+    {
+      "name": "Horitube",
+      "address": "0x079B",
+      "value": "0x8C7E",
+      "type": "weq"
+    },
+    {
+      "name": "Starting Bed",
+      "address": "0x079B",
+      "value": "0x9AF3",
+      "type": "weq"
+    },
+    {
+      "name": "Water Hops",
+      "address": "0x079B",
+      "value": "0xBD9C",
+      "type": "weq"
+    },
+    {
+      "name": "Tokyo",
+      "address": "0x079B",
+      "value": "0xBE86",
+      "type": "weq"
+    },
+    {
+      "name": "Hidden Forest Elevator",
+      "address": "0x079B",
+      "value": "0xBDEA",
+      "type": "weq"
+    },
+    {
+      "name": "Intestines",
+      "address": "0x079B",
+      "value": "0xBDC3",
+      "type": "weq"
+    },
+    {
+      "name": "West Throat",
+      "address": "0x079B",
+      "value": "0x9A21",
+      "type": "weq"
+    },
+    {
+      "name": "West Head",
+      "address": "0x079B",
+      "value": "0x9A67",
+      "type": "weq"
+    },
+    {
+      "name": "Center Head",
+      "address": "0x079B",
+      "value": "0x9AAD",
+      "type": "weq"
+    },
+    {
+      "name": "False Idol Map Room",
+      "address": "0x079B",
+      "value": "0xB0F7",
+      "type": "weq"
+    },
+    {
+      "name": "West Throat Onsen",
+      "address": "0x079B",
+      "value": "0x9CDD",
+      "type": "weq"
+    },
+    {
+      "name": "West Top Tube",
+      "address": "0x079B",
+      "value": "0x9B39",
+      "type": "weq"
+    },
+    {
+      "name": "Hyper Throat",
+      "address": "0x079B",
+      "value": "0xBC92",
+      "type": "weq"
+    },
+    {
+      "name": "East Head",
+      "address": "0x079B",
+      "value": "0x9C0B",
+      "type": "weq"
+    },
+    {
+      "name": "East Throat",
+      "address": "0x079B",
+      "value": "0x9C51",
+      "type": "weq"
+    },
+    {
+      "name": "Idol's Heart Cage",
+      "address": "0x079B",
+      "value": "0x9D69",
+      "type": "weq"
+    },
+    {
+      "name": "East Throat Onsen",
+      "address": "0x079B",
+      "value": "0x9F53",
+      "type": "weq"
+    },
+    {
+      "name": "East Top Tube",
+      "address": "0x079B",
+      "value": "0xA1A5",
+      "type": "weq"
+    },
+    {
+      "name": "West Acid Bath",
+      "address": "0x079B",
+      "value": "0x9C97",
+      "type": "weq"
+    },
+    {
+      "name": "Center Death Pit",
+      "address": "0x079B",
+      "value": "0xBAC5",
+      "type": "weq"
+    },
+    {
+      "name": "East Acid Bath",
+      "address": "0x079B",
+      "value": "0xBB0B",
+      "type": "weq"
+    },
+    {
+      "name": "Dead Energy Room",
+      "address": "0x079B",
+      "value": "0xB625",
+      "type": "weq"
+    },
+    {
+      "name": "Fifth Stomach",
+      "address": "0x079B",
+      "value": "0xB5D7",
+      "type": "weq"
+    },
+    {
+      "name": "Armor Hall",
+      "address": "0x079B",
+      "value": "0xB589",
+      "type": "weq"
+    },
+    {
+      "name": "Spark Swimsuit Room",
+      "address": "0x079B",
+      "value": "0xB562",
+      "type": "weq"
+    },
+    {
+      "name": "Armor Shaft",
+      "address": "0x079B",
+      "value": "0xB514",
+      "type": "weq"
+    },
+    {
+      "name": "Blood Belly",
+      "address": "0x079B",
+      "value": "0xB4C6",
+      "type": "weq"
+    },
+    {
+      "name": "Mouse Runner",
+      "address": "0x079B",
+      "value": "0xB451",
+      "type": "weq"
+    },
+    {
+      "name": "False Idol Ball Shrine",
+      "address": "0x079B",
+      "value": "0xB3DC",
+      "type": "weq"
+    },
+    {
+      "name": "Inner Throat",
+      "address": "0x079B",
+      "value": "0xB0A9",
+      "type": "weq"
+    },
+    {
+      "name": "Defiled Hallway",
+      "address": "0x079B",
+      "value": "0xB16C",
+      "type": "weq"
+    },
+    {
+      "name": "Armor Onsen",
+      "address": "0x079B",
+      "value": "0xB64C",
+      "type": "weq"
+    },
+    {
+      "name": "Why",
+      "address": "0x079B",
+      "value": "0xB1BA",
+      "type": "weq"
+    },
+    {
+      "name": "Lukewarm Room",
+      "address": "0x079B",
+      "value": "0xB22F",
+      "type": "weq"
+    },
+    {
+      "name": "Defiled Frog Room",
+      "address": "0x079B",
+      "value": "0xAE60",
+      "type": "weq"
+    },
+    {
+      "name": "Purple Locket Room",
+      "address": "0x079B",
+      "value": "0x9EC7",
+      "type": "weq"
+    },
+    {
+      "name": "Artery Treats",
+      "address": "0x079B",
+      "value": "0xADEB",
+      "type": "weq"
+    },
+    {
+      "name": "Middle Throat",
+      "address": "0x079B",
+      "value": "0xAF4A",
+      "type": "weq"
+    },
+    {
+      "name": "Blood Chute",
+      "address": "0x079B",
+      "value": "0xA4A7",
+      "type": "weq"
+    },
+    {
+      "name": "The Other End",
+      "address": "0x079B",
+      "value": "0xA835",
+      "type": "weq"
+    },
+    {
+      "name": "Forgotten Onsen",
+      "address": "0x079B",
+      "value": "0xADC4",
+      "type": "weq"
+    },
+    {
+      "name": "Closed West Head",
+      "address": "0x079B",
+      "value": "0xB034",
+      "type": "weq"
+    },
+    {
+      "name": "Closed East Head",
+      "address": "0x079B",
+      "value": "0xB332",
+      "type": "weq"
+    },
+    {
+      "name": "Defiled Junko's Room",
+      "address": "0x079B",
+      "value": "0xA579",
+      "type": "weq"
+    },
+    {
+      "name": "Wave Bangle Room",
+      "address": "0x079B",
+      "value": "0xB340",
+      "type": "weq"
+    },
+    {
+      "name": "Bloody Elevator",
+      "address": "0x079B",
+      "value": "0xA605",
+      "type": "weq"
+    },
+    {
+      "name": "Deep Purple Ice Castle Elevator",
+      "address": "0x079B",
+      "value": "0xA7EF",
+      "type": "weq"
+    },
+    {
+      "name": "Singles Room",
+      "address": "0x079B",
+      "value": "0xAD28",
+      "type": "weq"
+    },
+    {
+      "name": "Tenacious Shaft",
+      "address": "0x079B",
+      "value": "0xA691",
+      "type": "weq"
+    },
+    {
+      "name": "Living Dead Girls",
+      "address": "0x079B",
+      "value": "0x89C0",
+      "type": "weq"
+    },
+    {
+      "name": "Broken Goo Room",
+      "address": "0x079B",
+      "value": "0x8A0E",
+      "type": "weq"
+    },
+    {
+      "name": "Antiquated Shaft",
+      "address": "0x079B",
+      "value": "0xA6D7",
+      "type": "weq"
+    },
+    {
+      "name": "Colette's Onsen",
+      "address": "0x079B",
+      "value": "0x8AAA",
+      "type": "weq"
+    },
+    {
+      "name": "The Longest Dash",
+      "address": "0x079B",
+      "value": "0x8AF8",
+      "type": "weq"
+    },
+    {
+      "name": "Cold Shoulder",
+      "address": "0x079B",
+      "value": "0x8B6D",
+      "type": "weq"
+    },
+    {
+      "name": "Big Ice",
+      "address": "0x079B",
+      "value": "0x8BBB",
+      "type": "weq"
+    },
+    {
+      "name": "Frozen Kicks",
+      "address": "0x079B",
+      "value": "0x8972",
+      "type": "weq"
+    },
+    {
+      "name": "Big League Glove Room",
+      "address": "0x079B",
+      "value": "0x8618",
+      "type": "weq"
+    },
+    {
+      "name": "Cold Steel Onsen",
+      "address": "0x079B",
+      "value": "0x8075",
+      "type": "weq"
+    },
+    {
+      "name": "Radioactive Jumps",
+      "address": "0x079B",
+      "value": "0x80C3",
+      "type": "weq"
+    },
+    {
+      "name": "Cold Pyramid",
+      "address": "0x079B",
+      "value": "0x8270",
+      "type": "weq"
+    },
+    {
+      "name": "Cold to Hot",
+      "address": "0x079B",
+      "value": "0x815F",
+      "type": "weq"
+    },
+    {
+      "name": "Hot Jumps",
+      "address": "0x079B",
+      "value": "0x81AD",
+      "type": "weq"
+    },
+    {
+      "name": "Core Shaft",
+      "address": "0x079B",
+      "value": "0x81FB",
+      "type": "weq"
+    },
+    {
+      "name": "Takshool Boss Room",
+      "address": "0x079B",
+      "value": "0xA7A9",
+      "type": "weq"
+    },
+    {
+      "name": "Darkest Point",
+      "address": "0x079B",
+      "value": "0x8249",
+      "type": "weq"
+    },
+    {
+      "name": "Last Heat",
+      "address": "0x079B",
+      "value": "0x85CA",
+      "type": "weq"
+    },
+    {
+      "name": "The Devil's Machine",
+      "address": "0x079B",
+      "value": "0x804E",
+      "type": "weq"
+    },
+    {
+      "name": "Deep Purple Map Room",
+      "address": "0x079B",
+      "value": "0x894B",
+      "type": "weq"
+    },
+    {
+      "name": "Dark Side Onsen",
+      "address": "0x079B",
+      "value": "0x8EEE",
+      "type": "weq"
+    },
+    {
+      "name": "Caliente Route",
+      "address": "0x079B",
+      "value": "0xB5B0",
+      "type": "weq"
+    },
+    {
+      "name": "Forgotten Shaft",
+      "address": "0x079B",
+      "value": "0xAFBF",
+      "type": "weq"
+    },
+    {
+      "name": "Profane Junko's Hallway",
+      "address": "0x079B",
+      "value": "0x8C30",
+      "type": "weq"
+    },
+    {
+      "name": "The Furnace",
+      "address": "0x079B",
+      "value": "0xABF0",
+      "type": "weq"
+    },
+    {
+      "name": "Landing Site",
+      "address": "0x079B",
+      "value": "0xAC17",
+      "type": "weq"
+    },
+    {
+      "name": "Parlor",
+      "address": "0x079B",
+      "value": "0xAC65",
+      "type": "weq"
+    },
+    {
+      "name": "Waterway",
+      "address": "0x079B",
+      "value": "0x8888",
+      "type": "weq"
+    },
+    {
+      "name": "Terminator Room",
+      "address": "0x079B",
+      "value": "0x88D6",
+      "type": "weq"
+    },
+    {
+      "name": "Parlor Onsen",
+      "address": "0x079B",
+      "value": "0x863F",
+      "type": "weq"
+    },
+    {
+      "name": "Last Missile Hall",
+      "address": "0x079B",
+      "value": "0x868D",
+      "type": "weq"
+    },
+    {
+      "name": "No-Map Tunnel",
+      "address": "0x079B",
+      "value": "0xA0D3",
+      "type": "weq"
+    },
+    {
+      "name": "Wave Preamble",
+      "address": "0x079B",
+      "value": "0xA08D",
+      "type": "weq"
+    },
+    {
+      "name": "Old Flyway",
+      "address": "0x079B",
+      "value": "0xA047",
+      "type": "weq"
+    },
+    {
+      "name": "Old Elevator",
+      "address": "0x079B",
+      "value": "0x8C09",
+      "type": "weq"
+    },
+    {
+      "name": "Last Missile Magic Room",
+      "address": "0x079B",
+      "value": "0x87C5",
+      "type": "weq"
+    },
+    {
+      "name": "Old Map Room",
+      "address": "0x079B",
+      "value": "0x87EC",
+      "type": "weq"
+    },
+    {
+      "name": "Deep Purple Annex",
+      "address": "0x079B",
+      "value": "0x883A",
+      "type": "weq"
+    },
+    {
+      "name": "Gauntlet",
+      "address": "0x079B",
+      "value": "0xBEAD",
+      "type": "weq"
+    },
+    {
+      "name": "Breakaway",
+      "address": "0x079B",
+      "value": "0x8813",
+      "type": "weq"
+    },
+    {
+      "name": "Gargoyle Boss Room",
+      "address": "0x079B",
+      "value": "0x9F0D",
+      "type": "weq"
+    },
+    {
+      "name": "Storm Wand Room",
+      "address": "0x079B",
+      "value": "0x879E",
+      "type": "weq"
+    },
+    {
+      "name": "Magic Broom Room",
+      "address": "0x079B",
+      "value": "0x8750",
+      "type": "weq"
+    },
+    {
+      "name": "Deep Purple Ball Shrine",
+      "address": "0x079B",
+      "value": "0x8702",
+      "type": "weq"
+    },
+    {
+      "name": "False Lava Room",
+      "address": "0x079B",
+      "value": "0x86DB",
+      "type": "weq"
+    },
+    {
+      "name": "Lost Highway",
+      "address": "0x079B",
+      "value": "0x86B4",
+      "type": "weq"
+    },
+    {
+      "name": "Dead Brain Room",
+      "address": "0x079B",
+      "value": "0x8D1A",
+      "type": "weq"
+    },
+    {
+      "name": "Dead Brain Elevator",
+      "address": "0x079B",
+      "value": "0x8CF3",
+      "type": "weq"
+    },
+    {
+      "name": "Escape Final",
+      "address": "0x079B",
+      "value": "0xB082",
+      "type": "weq"
+    },
+    {
+      "name": "Sheol Connect",
+      "address": "0x079B",
+      "value": "0xA119",
+      "type": "weq"
+    },
+    {
+      "name": "Gold Homunculus' Room",
+      "address": "0x079B",
+      "value": "0xA277",
+      "type": "weq"
+    },
+    {
+      "name": "Profane Junko's Room",
+      "address": "0x079B",
+      "value": "0xA87B",
+      "type": "weq"
+    },
+    {
+      "name": "Profane Frog Room",
+      "address": "0x079B",
+      "value": "0xA303",
+      "type": "weq"
+    },
+    {
+      "name": "Junko Altar",
+      "address": "0x079B",
+      "value": "0xABA2",
+      "type": "weq"
+    },
+    {
+      "name": "Animal Room",
+      "address": "0x079B",
+      "value": "0xA349",
+      "type": "weq"
+    },
+    {
+      "name": "Mini Penguin",
+      "address": "0x079B",
+      "value": "0xA3D5",
+      "type": "weq"
+    },
+    {
+      "name": "Ice Castle Entrance",
+      "address": "0x079B",
+      "value": "0xAFE6",
+      "type": "weq"
+    },
+    {
+      "name": "First Hallway",
+      "address": "0x079B",
+      "value": "0xB00D",
+      "type": "weq"
+    },
+    {
+      "name": "Main Tower",
+      "address": "0x079B",
+      "value": "0xA461",
+      "type": "weq"
+    },
+    {
+      "name": "Throne Room",
+      "address": "0x079B",
+      "value": "0x8924",
+      "type": "weq"
+    },
+    {
+      "name": "Crumble Pits",
+      "address": "0x079B",
+      "value": "0x8BE2",
+      "type": "weq"
+    },
+    {
+      "name": "East Nook",
+      "address": "0x079B",
+      "value": "0x85A3",
+      "type": "weq"
+    },
+    {
+      "name": "Crown Room",
+      "address": "0x079B",
+      "value": "0x8222",
+      "type": "weq"
+    },
+    {
+      "name": "Big Empty",
+      "address": "0x079B",
+      "value": "0x81D4",
+      "type": "weq"
+    },
+    {
+      "name": "Moon Shaft",
+      "address": "0x079B",
+      "value": "0x8186",
+      "type": "weq"
+    },
+    {
+      "name": "Undies Secret",
+      "address": "0x079B",
+      "value": "0x8138",
+      "type": "weq"
+    },
+    {
+      "name": "Hidden Hole",
+      "address": "0x079B",
+      "value": "0x80EA",
+      "type": "weq"
+    },
+    {
+      "name": "Rave Room",
+      "address": "0x079B",
+      "value": "0x809C",
+      "type": "weq"
+    },
+    {
+      "name": "Litte Long Caves",
+      "address": "0x079B",
+      "value": "0x85F1",
+      "type": "weq"
+    },
+    {
+      "name": "Snow Bros",
+      "address": "0x079B",
+      "value": "0xA763",
+      "type": "weq"
+    },
+    {
+      "name": "Royal Onsen",
+      "address": "0x079B",
+      "value": "0x8AD1",
+      "type": "weq"
+    },
+    {
+      "name": "Ice Castle Map Room",
+      "address": "0x079B",
+      "value": "0x8B94",
+      "type": "weq"
+    },
+    {
+      "name": "Bloody Hallway",
+      "address": "0x079B",
+      "value": "0x8B46",
+      "type": "weq"
+    },
+    {
+      "name": "Castle Bottom",
+      "address": "0x079B",
+      "value": "0x8B1F",
+      "type": "weq"
+    },
+    {
+      "name": "Crystal Onsen",
+      "address": "0x079B",
+      "value": "0x8999",
+      "type": "weq"
+    },
+    {
+      "name": "Castle Night Sky",
+      "address": "0x079B",
+      "value": "0x8A83",
+      "type": "weq"
+    },
+    {
+      "name": "Undies Tower",
+      "address": "0x079B",
+      "value": "0x8A5C",
+      "type": "weq"
+    },
+    {
+      "name": "Tainted Cave",
+      "address": "0x079B",
+      "value": "0x8A35",
+      "type": "weq"
+    },
+    {
+      "name": "Frozen Lake",
+      "address": "0x079B",
+      "value": "0x89E7",
+      "type": "weq"
+    },
+    {
+      "name": "Actual Blood",
+      "address": "0x079B",
+      "value": "0xAD4F",
+      "type": "weq"
+    },
+    {
+      "name": "Penguinmire's Room",
+      "address": "0x079B",
+      "value": "0xA64B",
+      "type": "weq"
+    },
+    {
+      "name": "Post Penguinmire Cave",
+      "address": "0x079B",
+      "value": "0xAD76",
+      "type": "weq"
+    },
+    {
+      "name": "Freeze Shaft",
+      "address": "0x079B",
+      "value": "0xB9F2",
+      "type": "weq"
+    },
+    {
+      "name": "Rat Bridge",
+      "address": "0x079B",
+      "value": "0xAC3E",
+      "type": "weq"
+    },
+    {
+      "name": "Ice Castle to Gutter Transfer",
+      "address": "0x079B",
+      "value": "0xAD9D",
+      "type": "weq"
+    },
+    {
+      "name": "Chunnel",
+      "address": "0x079B",
+      "value": "0xAC8C",
+      "type": "weq"
+    },
+    {
+      "name": "Hall of Beauty",
+      "address": "0x079B",
+      "value": "0xA5BF",
+      "type": "weq"
+    },
+    {
+      "name": "Rat Dasher Room",
+      "address": "0x079B",
+      "value": "0xB2CB",
+      "type": "weq"
+    },
+    {
+      "name": "Ice Wand Room",
+      "address": "0x079B",
+      "value": "0xB2A4",
+      "type": "weq"
+    },
+    {
+      "name": "Dreamer's Crown Room",
+      "address": "0x079B",
+      "value": "0xB256",
+      "type": "weq"
+    },
+    {
+      "name": "Under the Tide",
+      "address": "0x079B",
+      "value": "0xB38E",
+      "type": "weq"
+    },
+    {
+      "name": "Ice Castle Ball Shrine",
+      "address": "0x079B",
+      "value": "0xB319",
+      "type": "weq"
+    },
+    {
+      "name": "Icy Freefall",
+      "address": "0x079B",
+      "value": "0xB8AB",
+      "type": "weq"
+    },
+    {
+      "name": "Immodest Junko's Room",
+      "address": "0x079B",
+      "value": "0xA4ED",
+      "type": "weq"
+    },
+    {
+      "name": "Immodest Frog Room",
+      "address": "0x079B",
+      "value": "0xAEFC",
+      "type": "weq"
+    },
+    {
+      "name": "Immodest Onsen",
+      "address": "0x079B",
+      "value": "0xAEAE",
+      "type": "weq"
+    },
+    {
+      "name": "Ice Castle Purple Elevator",
+      "address": "0x079B",
+      "value": "0xAE87",
+      "type": "weq"
+    },
+    {
+      "name": "One True Junko",
+      "address": "0x079B",
+      "value": "0x9E81",
+      "type": "weq"
+    },
+    {
+      "name": "Wrong Answer",
+      "address": "0x079B",
+      "value": "0xB05B",
+      "type": "weq"
+    },
+    {
+      "name": "Chapel Front",
+      "address": "0x079B",
+      "value": "0xB193",
+      "type": "weq"
+    },
+    {
+      "name": "Main Chapel Room",
+      "address": "0x079B",
+      "value": "0x8000",
+      "type": "weq"
+    },
+    {
+      "name": "The Blood Funnel",
+      "address": "0x079B",
+      "value": "0xB478",
+      "type": "weq"
+    },
+    {
+      "name": "First Haven",
+      "address": "0x079B",
+      "value": "0xB4ED",
+      "type": "weq"
+    },
+    {
+      "name": "Rainbow Connection",
+      "address": "0x079B",
+      "value": "0xB53B",
+      "type": "weq"
+    },
+    {
+      "name": "Lowlight Onsen",
+      "address": "0x079B",
+      "value": "0xB736",
+      "type": "weq"
+    },
+    {
+      "name": "Naked Temple",
+      "address": "0x079B",
+      "value": "0xAED5",
+      "type": "weq"
+    },
+    {
+      "name": "Leviathan",
+      "address": "0x079B",
+      "value": "0xB673",
+      "type": "weq"
+    },
+    {
+      "name": "Submerged Cells",
+      "address": "0x079B",
+      "value": "0xB69A",
+      "type": "weq"
+    },
+    {
+      "name": "Sand Hub",
+      "address": "0x079B",
+      "value": "0xB6C1",
+      "type": "weq"
+    },
+    {
+      "name": "Respite",
+      "address": "0x079B",
+      "value": "0xB70F",
+      "type": "weq"
+    },
+    {
+      "name": "The Grinder",
+      "address": "0x079B",
+      "value": "0xB5FE",
+      "type": "weq"
+    },
+    {
+      "name": "Reality Check",
+      "address": "0x079B",
+      "value": "0xB403",
+      "type": "weq"
+    },
+    {
+      "name": "Safe Room",
+      "address": "0x079B",
+      "value": "0xB3B5",
+      "type": "weq"
+    },
+    {
+      "name": "Muddy Path",
+      "address": "0x079B",
+      "value": "0xB0D0",
+      "type": "weq"
+    },
+    {
+      "name": "Muddy Onsen",
+      "address": "0x079B",
+      "value": "0xB11E",
+      "type": "weq"
+    },
+    {
+      "name": "Muddy Altar",
+      "address": "0x079B",
+      "value": "0xB145",
+      "type": "weq"
+    },
+    {
+      "name": "Magic Soap Room",
+      "address": "0x079B",
+      "value": "0x8297",
+      "type": "weq"
+    },
+    {
+      "name": "Dead Dry Cave",
+      "address": "0x079B",
+      "value": "0xBE11",
+      "type": "weq"
+    },
+    {
+      "name": "Last Climb",
+      "address": "0x079B",
+      "value": "0xBE38",
+      "type": "weq"
+    },
+    {
+      "name": "Decaying Girls",
+      "address": "0x079B",
+      "value": "0xBEFB",
+      "type": "weq"
+    },
+    {
+      "name": "Nude Temple",
+      "address": "0x079B",
+      "value": "0xB964",
+      "type": "weq"
+    },
+    {
+      "name": "Bare Temple",
+      "address": "0x079B",
+      "value": "0xBED4",
+      "type": "weq"
+    },
+    {
+      "name": "Actual Air",
+      "address": "0x079B",
+      "value": "0x8CCC",
+      "type": "weq"
+    },
+    {
+      "name": "True Believer's Onsen",
+      "address": "0x079B",
+      "value": "0x8CA5",
+      "type": "weq"
+    },
+    {
+      "name": "Blood Bethel Gutter Transfer",
+      "address": "0x079B",
+      "value": "0x88FD",
+      "type": "weq"
+    },
+    {
+      "name": "Humid Hall",
+      "address": "0x079B",
+      "value": "0x8333",
+      "type": "weq"
+    },
+    {
+      "name": "Long Dredge",
+      "address": "0x079B",
+      "value": "0x8381",
+      "type": "weq"
+    },
+    {
+      "name": "Blood Wand Room",
+      "address": "0x079B",
+      "value": "0x83CF",
+      "type": "weq"
+    },
+    {
+      "name": "Suffocation",
+      "address": "0x079B",
+      "value": "0x83F6",
+      "type": "weq"
+    },
+    {
+      "name": "Flesh Temple",
+      "address": "0x079B",
+      "value": "0x841D",
+      "type": "weq"
+    },
+    {
+      "name": "Sanguine Fin Room",
+      "address": "0x079B",
+      "value": "0x8492",
+      "type": "weq"
+    },
+    {
+      "name": "Obscene Onsen",
+      "address": "0x079B",
+      "value": "0x84E0",
+      "type": "weq"
+    },
+    {
+      "name": "Bloody Freefall",
+      "address": "0x079B",
+      "value": "0xb729",
+      "type": "weq"
+    },
+    {
+      "name": "Lone Chain",
+      "address": "0x079B",
+      "value": "0xB9AB",
+      "type": "weq"
+    },
+    {
+      "name": "Goat Maze",
+      "address": "0x079B",
+      "value": "0x857C",
+      "type": "weq"
+    },
+    {
+      "name": "Blood Bethel Ball Shrine",
+      "address": "0x079B",
+      "value": "0x82BE",
+      "type": "weq"
+    },
+    {
+      "name": "Living Blood Boss Room",
+      "address": "0x079B",
+      "value": "0x9FDF",
+      "type": "weq"
+    },
+    {
+      "name": "Obscene Frog Room",
+      "address": "0x079B",
+      "value": "0x8444",
+      "type": "weq"
+    },
+    {
+      "name": "Obscene Junko's Room",
+      "address": "0x079B",
+      "value": "0x9DAF",
+      "type": "weq"
+    },
+    {
+      "name": "Blood Bethel Map Room",
+      "address": "0x079B",
+      "value": "0x8FB1",
+      "type": "weq"
+    },
+    {
+      "name": "Purple Elevator",
+      "address": "0x079B",
+      "value": "0x8D41",
+      "type": "weq"
+    },
+    {
+      "name": "Sheol Elevator",
+      "address": "0x079B",
+      "value": "0x8D8F",
+      "type": "weq"
+    },
+    {
+      "name": "Walking in the Sand",
+      "address": "0x079B",
+      "value": "0x8EC7",
+      "type": "weq"
+    },
+    {
+      "name": "Tree of Sheol",
+      "address": "0x079B",
+      "value": "0xBD36",
+      "type": "weq"
+    },
+    {
+      "name": "Super Junkoid's Flower",
+      "address": "0x079B",
+      "value": "0x9F99",
+      "type": "weq"
+    },
+    {
+      "name": "Temple Entrance",
+      "address": "0x079B",
+      "value": "0xA8C1",
+      "type": "weq"
+    },
+    {
+      "name": "Ride the Snake 1",
+      "address": "0x079B",
+      "value": "0x90C2",
+      "type": "weq"
+    },
+    {
+      "name": "Asmodeus' Room",
+      "address": "0x079B",
+      "value": "0xB7E4",
+      "type": "weq"
+    },
+    {
+      "name": "Ride The Snake 2",
+      "address": "0x079B",
+      "value": "0x9026",
+      "type": "weq"
+    },
+    {
+      "name": "Ride The Snake 3",
+      "address": "0x079B",
+      "value": "0x8FFF",
+      "type": "weq"
+    },
+    {
+      "name": "The Downward Spiral",
+      "address": "0x079B",
+      "value": "0xAE12",
+      "type": "weq"
+    },
+    {
+      "name": "Bridge of the Abyss",
+      "address": "0x079B",
+      "value": "0xB42A",
+      "type": "weq"
+    },
+    {
+      "name": "Roots of Sheol",
+      "address": "0x079B",
+      "value": "0x9BC5",
+      "type": "weq"
+    },
+    {
+      "name": "Jay One Shortcut",
+      "address": "0x079B",
+      "value": "0x904D",
+      "type": "weq"
+    },
+    {
+      "name": "Wilma's Onsen",
+      "address": "0x079B",
+      "value": "0x852E",
+      "type": "weq"
+    },
+    {
+      "name": "Temple Onsen",
+      "address": "0x079B",
+      "value": "0x8027",
+      "type": "weq"
+    },
+    {
+      "name": "Escape Elevator",
+      "address": "0x079B",
+      "value": "0xAD01",
+      "type": "weq"
+    },
+    {
+      "name": "Last Hallway",
+      "address": "0x079B",
+      "value": "0xB208",
+      "type": "weq"
+    },
+    {
+      "name": "Hope",
+      "address": "0x079B",
+      "value": "0xB49F",
+      "type": "weq"
+    },
+    {
+      "name": "A Lone Junkoid & Flesh Totem",
+      "address": "0x079B",
+      "value": "0xAF23",
+      "type": "weq"
+    },
+    {
+      "name": "White Hall",
+      "address": "0x079B",
+      "value": "0xAF71",
+      "type": "weq"
+    },
+    {
+      "name": "Tancred's Room",
+      "address": "0x079B",
+      "value": "0xA533",
+      "type": "weq"
+    },
+    {
+      "name": "Death Wand Room",
+      "address": "0x079B",
+      "value": "0xAE39",
+      "type": "weq"
+    },
+    {
+      "name": "Calm",
+      "address": "0x079B",
+      "value": "0xB1E1",
+      "type": "weq"
+    },
+    {
+      "name": "White Goo",
+      "address": "0x079B",
+      "value": "0xB2F2",
+      "type": "weq"
+    },
+    {
+      "name": "Junko's Room",
+      "address": "0x079B",
+      "value": "0xB367",
+      "type": "weq"
+    },
+    {
+      "name": "Sigma",
+      "address": "0x079B",
+      "value": "0xACDA",
+      "type": "weq"
+    },
+    {
+      "name": "Magic Temple",
+      "address": "0x079B",
+      "value": "0xA71D",
+      "type": "weq"
+    },
+    {
+      "name": "Sheol Ball Shrine",
+      "address": "0x079B",
+      "value": "0xAF98",
+      "type": "weq"
+    },
+    {
+      "name": "Escape Spark",
+      "address": "0x079B",
+      "value": "0xACB3",
+      "type": "weq"
+    },
+    {
+      "name": "Escape Statue Room",
+      "address": "0x079B",
+      "value": "0xABC9",
+      "type": "weq"
+    },
+    {
+      "name": "Escape Onsen",
+      "address": "0x079B",
+      "value": "0xB3CE",
+      "type": "weq"
+    },
+    {
+      "name": "Immodest Junko",
+      "address": "0xD82B",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "Homunculus",
+      "address": "0xD828",
+      "value": "0x04",
+      "type": "bit"
+    },
+    {
+      "name": "False Idol",
+      "address": "0xD82B",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "Profane Junko",
+      "address": "0xD82A",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "Defiled Junko",
+      "address": "0xD829",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "Penguinmire",
+      "address": "0xD829",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "Obscene Junko",
+      "address": "0xD82C",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "Living Blood",
+      "address": "0xD82C",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "First Fork Magic Bolt",
+      "address": "0xD870",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "Mole Hill Heart",
+      "address": "0xD870",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "Pipe Dream Heart",
+      "address": "0xD870",
+      "value": "0x04",
+      "type": "bit"
+    },
+    {
+      "name": "Box Room Baseballs",
+      "address": "0xD870",
+      "value": "0x08",
+      "type": "bit"
+    },
+    {
+      "name": "Wallkicks Magic Bolt",
+      "address": "0xD870",
+      "value": "0x10",
+      "type": "bit"
+    },
+    {
+      "name": "Gutter Baseballs",
+      "address": "0xD870",
+      "value": "0x20",
+      "type": "bit"
+    },
+    {
+      "name": "Mushroom Hub Heart",
+      "address": "0xD870",
+      "value": "0x40",
+      "type": "bit"
+    },
+    {
+      "name": "Middle Gates Magic Bolt",
+      "address": "0xD870",
+      "value": "0x80",
+      "type": "bit"
+    },
+    {
+      "name": "Water Hops Heart",
+      "address": "0xD871",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "Feather",
+      "address": "0xD871",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "Rat Cloak",
+      "address": "0xD871",
+      "value": "0x04",
+      "type": "bit"
+    },
+    {
+      "name": "Rat Burst",
+      "address": "0xD871",
+      "type": "bit",
+      "value": "0x08"
+    },
+    {
+      "name": "Wriggling Shaft Spark Swimsuit",
+      "address": "0xD871",
+      "value": "0x10",
+      "type": "bit"
+    },
+    {
+      "name": "Wallkicks",
+      "address": "0xD871",
+      "value": "0x20",
+      "type": "bit"
+    },
+    {
+      "name": "West Throat Heart",
+      "address": "0xD871",
+      "value": "0x40",
+      "type": "bit"
+    },
+    {
+      "name": "East Throat Heart",
+      "address": "0xD871",
+      "value": "0x80",
+      "type": "bit"
+    },
+    {
+      "name": "Wave Bangle",
+      "address": "0xD872",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "West Acid Bath Magic Bolt",
+      "address": "0xD872",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "Dead Energy Heart",
+      "address": "0xD872",
+      "value": "0x04",
+      "type": "bit"
+    },
+    {
+      "name": "Fifth Stomach Magic Bolt",
+      "address": "0xD872",
+      "value": "0x08",
+      "type": "bit"
+    },
+    {
+      "name": "Armor Hall Magic Bolt",
+      "address": "0xD872",
+      "value": "0x10",
+      "type": "bit"
+    },
+    {
+      "name": "Alpha Spark Swimsuit",
+      "address": "0xD872",
+      "value": "0x20",
+      "type": "bit"
+    },
+    {
+      "name": "False Idol Baseballs",
+      "address": "0xD872",
+      "value": "0x40",
+      "type": "bit"
+    },
+    {
+      "name": "Intestines Heart",
+      "address": "0xD872",
+      "value": "0x80",
+      "type": "bit"
+    },
+    {
+      "name": "Defiled Junko's Lucky Frog",
+      "address": "0xD873",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "Purple Locket",
+      "address": "0xD873",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "Artery Baseballs",
+      "address": "0xD873",
+      "value": "0x04",
+      "type": "bit"
+    },
+    {
+      "name": "Antiquated Shaft Baseballs",
+      "address": "0xD873",
+      "value": "0x08",
+      "type": "bit"
+    },
+    {
+      "name": "Big League Glove",
+      "address": "0xD873",
+      "value": "0x10",
+      "type": "bit"
+    },
+    {
+      "name": "Radioactive Jumps Heart",
+      "address": "0xD873",
+      "value": "0x20",
+      "type": "bit"
+    },
+    {
+      "name": "Dead Brain Spark Swimsuit",
+      "address": "0xD873",
+      "value": "0x40",
+      "type": "bit"
+    },
+    {
+      "name": "Last Heat Magic Bolt",
+      "address": "0xD873",
+      "value": "0x80",
+      "type": "bit"
+    },
+    {
+      "name": "Waterway Heart",
+      "address": "0xD874",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "Purple Hall Magic Bolt",
+      "address": "0xD874",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "Old Map Room Heart",
+      "address": "0xD874",
+      "value": "0x04",
+      "type": "bit"
+    },
+    {
+      "name": "Deep Purple Annex Heart",
+      "address": "0xD874",
+      "value": "0x08",
+      "type": "bit"
+    },
+    {
+      "name": "Gem of Storms",
+      "address": "0xD874",
+      "value": "0x10",
+      "type": "bit"
+    },
+    {
+      "name": "Magic Broom",
+      "address": "0xD874",
+      "value": "0x20",
+      "type": "bit"
+    },
+    {
+      "name": "Deep Purple Baseballs",
+      "address": "0xD874",
+      "value": "0x40",
+      "type": "bit"
+    },
+    {
+      "name": "False Lava Room Magic Bolt",
+      "address": "0xD874",
+      "value": "0x80",
+      "type": "bit"
+    },
+    {
+      "name": "Profane Junko's Lucky Frog",
+      "address": "0xD875",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "Throne Room Heart",
+      "address": "0xD875",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "East Nook Heart",
+      "address": "0xD875",
+      "value": "0x04",
+      "type": "bit"
+    },
+    {
+      "name": "Crown Room Heart",
+      "address": "0xD875",
+      "value": "0x08",
+      "type": "bit"
+    },
+    {
+      "name": "Big Empty Magic Bolt",
+      "address": "0xD875",
+      "value": "0x10",
+      "type": "bit"
+    },
+    {
+      "name": "Undies Secret Magic Bolt",
+      "address": "0xD875",
+      "value": "0x20",
+      "type": "bit"
+    },
+    {
+      "name": "Rave Room Spark Swimsuit",
+      "address": "0xD875",
+      "value": "0x40",
+      "type": "bit"
+    },
+    {
+      "name": "Frozen Lake Baseballs",
+      "address": "0xD875",
+      "value": "0x80",
+      "type": "bit"
+    },
+    {
+      "name": "Actual Blood Magic Bolt",
+      "address": "0xD876",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "Main Tower Heart",
+      "address": "0xD876",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "Rat Dasher",
+      "address": "0xD876",
+      "value": "0x04",
+      "type": "bit"
+    },
+    {
+      "name": "Gem of Ice",
+      "address": "0xD876",
+      "value": "0x08",
+      "type": "bit"
+    },
+    {
+      "name": "Dreamer's Crown",
+      "address": "0xD876",
+      "value": "0x10",
+      "type": "bit"
+    },
+    {
+      "name": "Ice Castle Baseballs",
+      "address": "0xD876",
+      "value": "0x20",
+      "type": "bit"
+    },
+    {
+      "name": "Immodest Junko's Lucky Frog",
+      "address": "0xD876",
+      "value": "0x40",
+      "type": "bit"
+    },
+    {
+      "name": "Rainbow Connection Heart",
+      "address": "0xD876",
+      "value": "0x80",
+      "type": "bit"
+    },
+    {
+      "name": "Naked Temple Magic Bolt",
+      "address": "0xD877",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "Safe Room Heart",
+      "address": "0xD877",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "Magic Soap",
+      "address": "0xD877",
+      "value": "0x04",
+      "type": "bit"
+    },
+    {
+      "name": "Decaying Girls Magic Bolt",
+      "address": "0xD877",
+      "value": "0x08",
+      "type": "bit"
+    },
+    {
+      "name": "Nude Temple Baseballs",
+      "address": "0xD877",
+      "value": "0x10",
+      "type": "bit"
+    },
+    {
+      "name": "Humid Hall Magic Bolt",
+      "address": "0xD877",
+      "value": "0x20",
+      "type": "bit"
+    },
+    {
+      "name": "Gem of Blood",
+      "address": "0xD877",
+      "value": "0x40",
+      "type": "bit"
+    },
+    {
+      "name": "Reality Check Spark Swimsuit",
+      "address": "0xD877",
+      "value": "0x80",
+      "type": "bit"
+    },
+    {
+      "name": "Flesh Temple Heart",
+      "address": "0xD878",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "Sanguine Fin",
+      "address": "0xD878",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "Goat Maze Heart",
+      "address": "0xD878",
+      "value": "0x04",
+      "type": "bit"
+    },
+    {
+      "name": "Blood Bethel Baseballs",
+      "address": "0xD878",
+      "value": "0x08",
+      "type": "bit"
+    },
+    {
+      "name": "Obscene Junko's Lucky Frog",
+      "address": "0xD878",
+      "value": "0x10",
+      "type": "bit"
+    },
+    {
+      "name": "Gem of Death",
+      "address": "0xD878",
+      "value": "0x20",
+      "type": "bit"
+    }
+  ]
+}
