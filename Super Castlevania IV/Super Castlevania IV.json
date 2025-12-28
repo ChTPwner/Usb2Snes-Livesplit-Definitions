@@ -1,0 +1,129 @@
+{
+  "name": "Super Castlevania IV",
+  "autostart": {
+    "active": "1",
+    "name": "Autostart",
+    "address": "0x0070",
+    "value": "0x05",
+    "type": "eq",
+    "next": null,
+    "more": [
+      {
+        "address": "0x0086",
+        "value": "0x00",
+        "type": "eq"
+      }
+    ]
+  },
+  "igt": null,
+  "alias": null,
+  "definitions": [
+    {
+      "name": "Stage1",
+      "address": "0x0086",
+      "value": "0x08",
+      "type": "eq"
+    },
+    {
+      "name": "Stage2",
+      "address": "0x0086",
+      "value": "0x0c",
+      "type": "eq"
+    },
+    {
+      "name": "Stage3",
+      "address": "0x0086",
+      "value": "0x12",
+      "type": "eq"
+    },
+    {
+      "name": "Stage4",
+      "address": "0x0086",
+      "value": "0x18",
+      "type": "eq"
+    },
+    {
+      "name": "Stage5",
+      "address": "0x0086",
+      "value": "0x1a",
+      "type": "eq"
+    },
+    {
+      "name": "Stage6",
+      "address": "0x0086",
+      "value": "0x23",
+      "type": "eq"
+    },
+    {
+      "name": "Stage7",
+      "address": "0x0086",
+      "value": "0x2a",
+      "type": "eq"
+    },
+    {
+      "name": "Stage8",
+      "address": "0x0086",
+      "value": "0x23",
+      "type": "eq"
+    },
+    {
+      "name": "Stage9",
+      "address": "0x0086",
+      "value": "0x2a",
+      "type": "eq"
+    },
+    {
+      "name": "StageA",
+      "address": "0x0086",
+      "value": "0x2e",
+      "type": "eq"
+    },
+    {
+      "name": "StageB",
+      "address": "0x0086",
+      "value": "0x037",
+      "type": "eq"
+    },
+    {
+      "name": "Slogra",
+      "address": "0x0086",
+      "value": "0x3f",
+      "type": "eq"
+    },
+    {
+      "name": "Gaibone",
+      "address": "0x0086",
+      "value": "0x40",
+      "type": "eq"
+    },
+    {
+      "name": "Death",
+      "address": "0x0086",
+      "value": "0x41",
+      "type": "eq"
+    },
+    {
+      "name": "Dracula",
+      "address": "0x0086",
+      "value": "0x43",
+      "type": "eq",
+      "next": [
+        {
+          "address": "0x0086",
+          "value": "0x43",
+          "type": "eq"
+        },
+        {
+          "address": "0x0072",
+          "value": "0x01",
+          "type": "eq"
+        },
+        {
+          "address": "0x0076",
+          "value": "0xff",
+          "type": "eq"
+        }
+      ]
+    }
+  ]
+}
