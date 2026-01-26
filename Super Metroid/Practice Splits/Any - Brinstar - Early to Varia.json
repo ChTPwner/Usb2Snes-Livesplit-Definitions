@@ -2,10 +2,10 @@
     "name": "Super Metroid",
     "autostart": {
         "active": "1",
-        "name": "Autostart",
-        "address": "0x079B",
-        "value": "0x9AD9",
-        "type": "weq",
+        "name": "Early Supers",
+        "address": "0xD872",
+        "value": "0x01",
+        "type": "bit",
         "more": null,
         "next": null
     },
